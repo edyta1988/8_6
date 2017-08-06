@@ -1,13 +1,13 @@
-var a= prompt("Wpisz wartość a");
-	b= prompt("Wpisz wartość b");
-	value=(a * a) + (2 * a * b) - (b * b);
+var a= prompt("Enter value a");
+var	b= prompt("Enter value b");
+var	value=(a * a) + (2 * a * b) - (b * b);
 
 console.log(value);
 
 if (value>0) {
-  console.log('Wynik dodatni')
+  console.log("Positive result")
 } else if (value<0) {
-  console.log('Wynik ujemny')
+  console.log("Negative result")
 } else {
-  console.log('Wynik jest równy zero')
+  console.log("Result equal '0'")
 }
